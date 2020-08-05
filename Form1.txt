@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>registration form</title>
+<link rel="stylesheet" href="../CSS/stylesheet.css"/>
+</head>
+<body>
+<div id="header">
+<h2>Registration Form</h2>
+<img src="../IMAGE/Capture.png"
+</div>
+<div id="form">
+<form action="destination.html" method="get" target="_blank">
+<div id="username">
+	Firstname:<input type="text" name="fname" placeholder="firstname"/>
+	Lastname:<input type="text" name="lname" placeholder="lastname"/>
+</div></br>
+	password:<input type="password" name="password" placeholder="password"/></br>
+	mail:<input type="email" name="email" placeholder="xyz@gmail.com"/></br>
+	phone no:<input type="telephone" name="phone" placeholder="phoneno"/></br>
+<div id="radio">
+	gender:<input type="radio" name="gender" value="male"/>
+		<input type="radio" name="gender" value="female"/>
+		<input type="radio" name="gender" value="others"/>
+</div></br>
+<div id="exp">
+	Experience:<select name="experience">
+			<option>select</option>
+			<option value="fresher">Fresher</option>
+			<option value="0-1year">0-1year</option>
+			<option value="2-year">2-year</option>
+			<option value=">2 year">greater then 2 year</option>
+		</select>
+</div></br>
+<input type="submit" value="submit"/>
+<input type="reset"/>
+</form>
+</div>
+
+</body>
+
+</html>
