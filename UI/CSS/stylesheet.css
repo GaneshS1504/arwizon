@@ -1,0 +1,85 @@
+body
+{
+	margin: 0;
+	background-image:url(../IMAGE/formimage.jpg) ;
+	
+	
+	
+}
+#header
+{
+	
+	text-align:center;
+	background-color:navy;
+	height:60px;
+	font-size:30px;
+	color: whitesmoke;
+}
+div img
+{
+	position:absolute;
+	left:20px;
+	top:40px;
+	height:50px;
+}
+
+#form
+{
+	background-color:coral;
+	max-width:600px;
+	margin:20px auto;
+	width:100%;
+	padding:20px;
+	color:black;
+	opacity:0.9;
+	font-size:20px;
+	font-family:'Montserrat',sans-serif;
+	border-radius:10px;
+	border:solid 2px black;
+}
+input:focus
+{
+	background-color:skyblue;
+	
+}
+input
+{
+	
+	border:solid 2px steelblue;
+	margin:5px;
+	padding:10px;
+	border-radius:5px;
+}
+
+#username
+{
+	
+	display:flex;
+	align-items:center;
+	margin:10px;
+}
+
+input[type="radio"]:focus
+{
+	width:20px;
+	height:15px;
+}
+input[type="password"]
+{
+	display:block;
+	width:50%;
+	border-radius:5px;	
+}
+input[type="email"]
+{
+	display:block;
+	width:50%;
+	border-radius:5px;
+}
+input[type="telephone"]
+{
+	display:block;
+	width:50%;
+	border-radius:5px;
+}
+
